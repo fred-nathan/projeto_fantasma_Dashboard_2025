@@ -28,9 +28,11 @@ Esse template foi criado para o alocado conseguir observar como ficaria sua aná
 # Análises
 
 ## Análise 3
+  A análise a seguir terá por objetivo entender a relação entre o peso ( em kilogramas) e a altura(em centímetros) dos clientes. Dessa vez, a técnica estatística a ser usada terá que levar em consideração o caráter quantitativo contínuo das variáveis. 
 
+       Em estatística, existe várias maneiras de analisar a relação entre variáveis. No nosso caso, vamos usar o coeficiente de "Correlação de Pearson" que nada mais é uma técnica que serve para analisar a correlação entre variáveis quantitativas contínua. Afim de ter um melhor olhar sobre o comportamento do nosso estudo, vamos representá-lo graças a um gráfico de disperção.       
 ## Análise 4
-
+ Após ter obtido um resultado de 0,697 no coeficiente de correlação de Pearson , pode se dizer que existe uma relação moderada entre o peso e a altura dos clientes. Em outras palavras , o gráfico deixa entender que o peso varia segundo a altura do cliente. Mais uma pessoa é alta, mais ela tem chance de ter um grande peso.
 ```{r}
 #| label: fig-
 #| fig-cap: "Gráfico "
