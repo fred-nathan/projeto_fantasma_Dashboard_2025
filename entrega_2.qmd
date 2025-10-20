@@ -28,11 +28,11 @@ Esse template foi criado para o alocado conseguir observar como ficaria sua aná
 # Análises
 
 ## Análise 3
-  A análise a seguir terá por objetivo entender a relação entre o peso ( em kilogramas) e a altura(em centímetros) dos clientes. Dessa vez, a técnica estatística a ser usada terá que levar em consideração o caráter quantitativo contínuo das variáveis. 
+A análise a seguir tem como objetivo compreender a relação entre o peso (em quilogramas) e a altura (em centímetros) dos clientes. Para isso, a técnica estatística utilizada precisa levar em consideração o caráter quantitativo contínuo das variáveis.
 
-       Em estatística, existe várias maneiras de analisar a relação entre variáveis. No nosso caso, vamos usar o coeficiente de "Correlação de Pearson" que nada mais é uma técnica que serve para analisar a correlação entre variáveis quantitativas contínua. Afim de ter um melhor olhar sobre o comportamento do nosso estudo, vamos representá-lo graças a um gráfico de disperção.       
+Em estatística, existem várias maneiras de analisar a relação entre variáveis. No nosso caso, utilizaremos o coeficiente de correlação de Pearson, que é uma técnica destinada a medir a força e a direção da relação linear entre variáveis quantitativas contínuas. Para uma melhor visualização do comportamento observado em nosso estudo, apresentaremos os dados também por meio de um gráfico de dispersão.
 ## Análise 4
- Após ter obtido um resultado de 0,697 no coeficiente de correlação de Pearson , pode se dizer que existe uma relação moderada entre o peso e a altura dos clientes. Em outras palavras , o gráfico deixa entender que o peso varia segundo a altura do cliente. Mais uma pessoa é alta, mais ela tem chance de ter um grande peso.
+ Após a obtenção de um coeficiente de correlação de Pearson igual a 0,697, pode-se afirmar que existe uma relação moderada a forte entre o peso e a altura dos clientes. Em outras palavras, o gráfico de dispersão sugere que o peso tende a variar de acordo com a altura do indivíduo: quanto maior a altura, maior a probabilidade de o peso também ser elevado. Vale destacar que o coeficiente de correlação varia entre -1 e 1; quanto mais próximo de 1, mais forte é a relação positiva entre as variáveis, indicando que aumentos em uma variável tendem a estar associados a aumentos na outra.
 ```{r}
 #| label: fig-
 #| fig-cap: "Gráfico "
